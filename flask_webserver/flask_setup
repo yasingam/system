@@ -1,0 +1,16 @@
+apt install nginx
+apt install python3-pip
+pip3 install flask
+pip3 install gunicorn
+/etc/init.d/nginx start
+rm /etc/nginx/sites-enabled/default
+touch /etc/nginx/sites-available/flask_settings
+mv flask_settings /etc/nginx/sites-enabled/
+ln -s /etc/nginx/sites-available/flask_settings /etc/nginx/sites-enabled/flask_settings
+/etc/init.d/nginx restart
+mkdir ~/Programming/flask
+if [ ! -f ~/Programming/flask/flask_hello.py ]; then
+    mv flask_hello.py ~/Programming/flask/
+else
+    echo "flask_hello.py already exists, no actions taken"
+fi
