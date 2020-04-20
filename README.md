@@ -3,6 +3,10 @@
 ### You're always copying this stuff from all over when you reinstall your OS (after you break it usually)
 
 #### Yasin's log 21/04/2020
+##### raspbian_setup added
+1. Used for generic initial setup on you Raspberry Pi devices (Pi is awkward to make plural...)
+2. Installs a whole lot of things including the nginx/gunicorn/flask setup
+3. Swaps Caps and Esc key functions
 ##### flask_webserver/, flask_webserver/flask_hello.py, flask_webserver/flask_settings, flask_webserver/flask_setup added
 1. Run `$ sudo bash flask_setup` in case you want to set up a fresh installation of nginx, gunicorn, and flask
 2. Served at localhost:8000
