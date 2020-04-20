@@ -1,0 +1,9 @@
+apt update
+apt upgrade
+apt install x11-xkb-utils
+setxkbmap -options caps:swapescape
+apt install vim
+apt install tmux
+bash flask_webserver/flask_setup
+pip3 install numpy
+pip3 install pandas
