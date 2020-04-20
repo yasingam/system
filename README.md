@@ -5,6 +5,7 @@
 #### Yasin's log 21/04/2020
 ##### raspbian_setup added
 1. Used for generic initial setup on you Raspberry Pi devices (Pi is awkward to make plural...)
+2. Run with `$ sudo bash raspbian_setup`
 2. Installs a whole lot of things including the nginx/gunicorn/flask setup
 3. Swaps Caps and Esc key functions
 ##### flask_webserver/, flask_webserver/flask_hello.py, flask_webserver/flask_settings, flask_webserver/flask_setup added
