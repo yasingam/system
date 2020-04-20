@@ -6,7 +6,7 @@
 ##### flask_webserver/, flask_webserver/flask_hello.py, flask_webserver/flask_settings, flask_webserver/flask_setup added
 1. Run `$ sudo bash flask_setup` in case you want to set up a fresh installation of nginx, gunicorn, and flask
 2. Served at localhost:8000
-3. Created so you don't have to watch <https://www.youtube.com/watch?v=kDRRtPO0YPA&t=561s> another hundred times
+3. Created so you don't have to watch [Deploying Flask Apps to an Ubuntu Server](https://www.youtube.com/watch?v=kDRRtPO0YPA&t=561s) another hundred times
 4. This creates the directory `~/Programming/flask` if not already there
 5. This creates the file `flask_hello.py` in `~/Programming/flask` if not there, otherwise exits with message
 6. To activate run `$ gunicorn flask_hello:app` in the appropriate directory
