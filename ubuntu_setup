@@ -2,8 +2,9 @@ apt update
 apt upgrade
 apt install --assume-yes vim tmux audacity build-essential curl darktable gdebi python3-pip python2.7 gimp gimp-gmic gmic
 apt install --assume-yes gnome-tweaks gparted guake hunspell-en-gb kdenlive r-base-core meshlab myspell-uk texlive-full
-apt install --assume-yes ubuntu-restricted-extras virtualbox vlc
+apt install --assume-yes virtualbox vlc
 bash flask_webserver/flask_setup
 pip3 install numpy pandas fastparquet feather-format flask gunicorn nose numpy openpyxl sklearn sympy texsoup=0.2.1 wheel
 pip3 install scipy matplotlib ipython
 flask_webserver/flask setup
+apt install ubuntu-restricted-extras  
