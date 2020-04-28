@@ -8,3 +8,5 @@ pip3 install numpy pandas fastparquet feather-format flask gunicorn nose numpy o
 pip3 install scipy matplotlib ipython
 flask_webserver/flask setup
 apt install ubuntu-restricted-extras
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
