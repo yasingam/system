@@ -42,3 +42,15 @@ autocmd BufNewFile,BufRead *.tex hi clear texItalStyle
 autocmd BufNewFile,BufRead *.tex hi clear texBoldItalStyle
 autocmd BufNewFile,BufRead *.tex hi clear texItalBoldStyle
 autocmd BufNewFile,BufRead *.tex hi clear texBoldStyle
+
+"vim-plug section
+call plug#begin('~/.vim/plugged')
+
+"SnipMate
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
+
+
+call plug#end()
